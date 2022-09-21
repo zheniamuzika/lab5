@@ -1,0 +1,12 @@
+bar = input("Введіть трехзначне число")
+if bar[0] == 2 or 4 or 6 or 8:
+
+elif bar[1] == 2 or 4 or 6 or 8:
+    print(bar[0] + bar[1]) or print(bar[0] + bar[2]) or print(bar[1] + bar[2])
+
+elif bar[2] == 2 or 4 or 6 or 8:
+     print(bar[0] + bar[1]) or print(bar[0] + bar[2]) or print(bar[1] + bar[2])
+     print(bar)
+
+else:
+    print("ERROR")
