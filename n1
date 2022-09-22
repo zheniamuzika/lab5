@@ -4,10 +4,10 @@ def f1(bar1):
     rez = 2/x + math.pow(2.31 + math.e*2*x)
     return (rez)
 def f2(bar2):
-    rez = arcsin(0.2*x + 0.3)
+    rez = math.arcsin(0.2*x + 0.3)
     return (rez)
 def f3(bar3):
-    rez = cos(x + 0.4.math.log(fabs(x+0.2)))
+    rez = math.cos(x + 0.4.math.log(math.fabs(x+0.2)))
     return (rez)
 y = 0.0
 if  bar1 >= 1:
