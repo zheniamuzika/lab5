@@ -10,10 +10,10 @@ def f3(bar3):
     rez = math.cos(x + 0.4.math.log(math.fabs(x+0.2)))
     return (rez)
 y = 0.0
-if  f1(bar1) >= 1:
-    y = f1(bar1)
-elif -1 < bar2 < 1:
-    y = f2(bar2)
-else:  f3(bar3) <= -1
-y = f3(bar3)
+if  f1(bar) >= 1:
+    y = f1(bar)
+elif -1 < bar < 1:
+    y = f2(bar)
+else:  f3(bar) <= -1
+y = f3(bar)
 print(int(y))
