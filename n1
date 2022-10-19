@@ -4,7 +4,7 @@ def f1(bar1):
     rez = 2/bar + math.pow(2.31 + math.e*2*bar)
     return (rez)
 def f2(bar2):
-    rez = math.arcsin(0.2*bar + 0.3)
+    rez = math.asin(0.2*bar + 0.3)
     return (rez)
 def f3(bar3):
     rez = math.cos(bar + 0.4.math.log(math.fabs(bar+0.2)))
