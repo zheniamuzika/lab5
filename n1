@@ -1,19 +1,19 @@
 import math
 bar = float(input('Введіть число х:  '))
 def f1(bar1):
-    rez = 2/bar + math.pow(2.31 + math.e*2*bar)
+    rez = 2/bar + math.pow(2.31,math.e*2*bar)
     return (rez)
 def f2(bar2):
     rez = math.asin(0.2*bar + 0.3)
     return (rez)
 def f3(bar3):
-    rez = math.cos(bar + 0.4.math.log(math.fabs(bar+0.2)))
+    rez = math.cos(bar) + 0.4.math.log(math.fabs(bar+0.2))
     return (rez)
 y = 0.0
 if  bar >= 1:
     y = f1(bar)
 elif -1 < bar < 1:
     y = f2(bar)
-else:  bar <= -1
-y = f3(bar)
+else:
+    y = f3(bar)
 print(int(y))
