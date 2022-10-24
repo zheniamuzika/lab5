@@ -17,3 +17,4 @@ elif -1 < bar < 1:
 else:
     y = f3(bar)
 print(int(y))
+
